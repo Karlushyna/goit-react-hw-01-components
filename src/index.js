@@ -29,7 +29,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
       <FriendList friends={friends} />
-      <TransactionHistory items={transactions} />;
+      <TransactionHistory items={transactions} />
     </App>
   </React.StrictMode>
 );
